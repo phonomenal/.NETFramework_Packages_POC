@@ -35,6 +35,9 @@
     <Company>GitHub</Company>
     <PackageDescription>This package adds an Octocat!</PackageDescription>
     <RepositoryUrl>https://github.com/James-LeHa/.NETFramework_Packages_POC</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageOutputPath>bin\debug\</PackageOutputPath>
   </PropertyGroup>   
   <ItemGroup>
     <Reference Include="System" />
