@@ -26,4 +26,4 @@ jobs:
       - name: Nuget SetAPIKey
         run: nuget setapikey ${{ secrets.GITHUB_TOKEN }} -Source "github"
       - name: Publish the package to GitHub packages
-        run: nuget push bin\Debug\*.nupkg -source "github" -SkipDuplicate
+        run: nuget push SampleApp_.NET_Framework\bin\Debug\*.nupkg -source "github" -SkipDuplicate
